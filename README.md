@@ -3,7 +3,7 @@
 Python lab for **NS5007 Human and Artificial Intelligence** (MSc Neuroscience).
 Run [`week5_pca_mds.ipynb`](week5_pca_mds.ipynb) directly in Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/qihongl/NS5007-week5/main/week5_pca_mds.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/qihongl/NS5007-week5/blob/main/week5_pca_mds.ipynb)
 
 No setup needed — part II of the lab fetches its packaged fMRI data (~15 MB,
 `data/`) from this repo automatically.
