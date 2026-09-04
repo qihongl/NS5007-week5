@@ -1,6 +1,6 @@
-# NS5007 — Week 5 lab: Dimensionality reduction (PCA & MDS)
+# NS5007 — lab notebooks
 
-Python lab for **NS5007 Human and Artificial Intelligence** (MSc Neuroscience).
+Python labs for **NS5007 Human and Artificial Intelligence** (MSc Neuroscience).
 
 All lab notebooks — open directly in Colab:
 
@@ -10,14 +10,18 @@ All lab notebooks — open directly in Colab:
 | [`basic_nn.ipynb`](basic_nn.ipynb) — neural networks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/qihongl/NS5007/blob/main/basic_nn.ipynb) |
 | [`ensemble_methods_lab.ipynb`](ensemble_methods_lab.ipynb) — ensembles & random forests | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/qihongl/NS5007/blob/main/ensemble_methods_lab.ipynb) |
 
-No setup needed — part II of the lab fetches its packaged fMRI data (~15 MB,
-`data/`) from this repo automatically.
+No setup needed — the fMRI lab fetches its packaged data (~15 MB, `data/`) from this
+repo automatically, and the Kriegeskorte 92-image supplement is cached in
+`data/kriegeskorte92/`.
 
 ## Contents
 
 | file | what it is |
 |---|---|
 | `pca_mds.ipynb` | the lab: PCA & classical MDS from scratch → Kriegeskorte-style IT RDMs → Schapiro-style community clustering in real fMRI |
+| `basic_nn.ipynb` | neural networks: one neuron → depth on the moons → digit classification |
+| `ensemble_methods_lab.ipynb` | ensembles: majority votes, Condorcet/bagging simulations, random forests, label-noise stress test |
+| `data/kriegeskorte92/` | 92-image RDMs (human + monkey IT, model RDMs), © Kriegeskorte et al. 2008, mirrored from the [rsatoolbox](https://github.com/rsagroup/rsatoolbox) repo |
 | `data/week5_schapiro_patterns.npz` | item × voxel fMRI patterns, 20 subjects × 4 regions (left IFG/anterior insula, left occipito-temporal, hippocampus, early visual control) |
 | `data/week5_schapiro_tmap.npz` + `_clusters.json` | group whole-brain searchlight t-map (lag-matched statistic) + top cluster masks |
 | `data/week5_schapiro_shifts.npz` | shift-predictor null distributions per subject/region |
